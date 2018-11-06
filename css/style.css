@@ -1,6 +1,9 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+  line-height: normal;
+  font-family: sans-serif;
 }
 
 nav {
@@ -8,6 +11,54 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+}
+
+header {
+  padding-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+li {
+  float: right;
+  padding: 30px;
+}
+
+article {
+  padding-top: 100px;
+}
+
+h1 {
+  font-size: 2.25em;
+  font-weight: bold;
+  line-height: 1.75em;
+}
+
+h3 {
+  font-size: 1.25em;
+  line-height: 1.2em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+p {
+  font-size: 100%;
+  line-height: 1.4em;
+}
+
+figure {
+  padding-bottom: 30px;
 }
 
 .logo {
@@ -30,20 +81,6 @@ nav {
 
 .right {
   float: right;
-}
-
-ul {
-  list-style-type: none;
-  float: right;
-}
-
-li {
-  float: right;
-  padding: 30px;
-}
-
-article {
-  padding-top: 100px;
 }
 
 .container {
